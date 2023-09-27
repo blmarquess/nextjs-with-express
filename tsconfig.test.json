@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "module": "ESNext",
+  "moduleResolution": "NodeNext",
+  "include": ["vitest/**/*"],
+  "exclude": [],
+  "compilerOptions": {
+    "composite": true,
+    "lib": [],
+    "types": ["node", "jsdom"]
+  }
+}

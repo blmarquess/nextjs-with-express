@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": false,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "noEmit": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"]
+  },
+  "include": ["../node_modules/cypress", "./**/*.ts", "./**/*.cy.ts"]
+}

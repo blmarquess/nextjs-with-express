@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "lib": ["es2020"],
+    "target": "es2020",
+    "isolatedModules": false,
+    "noEmit": false
+  },
+  "include": ["server.ts"],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/*.spec.tsx",
+    "**/*.test.tsx",
+    "**/*.cy.ts",
+    "**/*.cy.tsx",
+    "node_modules"
+  ]
+}
